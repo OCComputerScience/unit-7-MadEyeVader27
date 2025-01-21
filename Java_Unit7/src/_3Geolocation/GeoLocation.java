@@ -48,7 +48,7 @@ package _3Geolocation;
 
 
         // returns the distance in miles between this geo location and the given
-        // other geo location
+        // other geolocation
         public double distanceFrom(GeoLocation other)
         {
             double lat1 = Math.toRadians(latitude);
@@ -63,6 +63,6 @@ package _3Geolocation;
             return arcLength * RADIUS;
         }
 
-        public
+
     }
 
